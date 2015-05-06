@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FoodCart</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Food Cart Item Selection</string>
+    <string name="drawer_close">Food Cart</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Food</item>
+        <item>Beverage</item>
+        <item>Dessert</item>
+        <item>Ice Creams</item>
+        <item>Soup</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/food</item>
+        <item>@drawable/beverage</item>
+        <item>@drawable/dessert</item>
+        <item>@drawable/ice_ireams</item>
+        <item>@drawable/soup</item>
+    </array>
+    
+    <!-- Food Items -->
+    <string-array name="food_items">
+        <item>Hot Dog</item>
+        <item>Chicken Roll</item>
+        <item>Beef Burger</item>
+        <item>Fish Filet</item>
+        <item>Mutton Lahori</item>
+    </string-array>
+    <!-- End of Food Items -->
+
+    <!-- Food Items -->
+    <string-array name="beverage_items">
+        <item>Maadira Red</item>
+        <item>Lemon Filipino</item>
+        <item>Fruit Juice</item>
+        <item>Ice Tea</item>
+    </string-array>
+    <!-- End of Food Items -->
+    
+        <!-- Food Items -->
+    <string-array name="dessert_items">
+        <item>Faluda</item>
+        <item>Lassi</item>
+    </string-array>
+    <!-- End of Food Items -->
+    
+        <!-- Food Items -->
+    <string-array name="ice_cream_items">
+        <item>Chocolesh</item>
+        <item>Orange </item>
+        <item>Strawberry</item>
+    </string-array>
+    <!-- End of Food Items -->
+    
+        <!-- Food Items -->
+    <string-array name="soup_items">
+        <item>Corn</item>
+        <item>Chicken</item>
+        <item>Mexican</item>
+    </string-array>
+    <!-- End of Food Items -->
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>

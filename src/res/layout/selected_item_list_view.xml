@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/foodContent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/foodText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Food"
+                    android:textColor="@color/DarkRed"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <com.example.foodcart.ExpandedListView
+                    android:id="@+id/foodSelectedItemListView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical"
+                    android:layout_gravity="center" >
+                </com.example.foodcart.ExpandedListView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/beverageContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/beverageText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Beverage"
+                    android:textColor="@color/DarkRed"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <com.example.foodcart.ExpandedListView
+                    android:id="@+id/beverageSelectedItemListView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical" >
+                </com.example.foodcart.ExpandedListView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dessertContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/dessertText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dessert"
+                    android:textColor="@color/DarkRed"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <com.example.foodcart.ExpandedListView
+                    android:id="@+id/dessertSelectedItemListView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical" >
+                </com.example.foodcart.ExpandedListView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/iceContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/iceText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ice-Cream"
+                    android:textColor="@color/DarkRed"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <com.example.foodcart.ExpandedListView
+                    android:id="@+id/iceSelectedItemListView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical" >
+                </com.example.foodcart.ExpandedListView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/soupContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <TextView
+                    android:id="@+id/soupText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Soup"
+                    android:textColor="@color/DarkRed"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <com.example.foodcart.ExpandedListView
+                    android:id="@+id/soupSelectedItemListView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical" >
+                </com.example.foodcart.ExpandedListView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
